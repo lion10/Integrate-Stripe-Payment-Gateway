@@ -59,4 +59,4 @@ app.post("/purchase", function (req, res) {
   });
 });
 
-app.listen(3010);
+app.listen(process.env.PORT || 3010);
